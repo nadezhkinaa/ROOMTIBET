@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "NunitoSans";
+    src: url("fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NEXTART";
+    src: url("fonts/NEXT ART_Bold.otf.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-family-main: "NunitoSans";
+    --font-s: 20px;
+    --color-font: #fdfdfd;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("images/mountains-main.jpg");
+    height: 985px;
+    width: 1920px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 212px;
+    padding-top: 16px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu-items-links {
+    display: flex;
+    gap: 24px;
+}
+
+.menu-items-links a {
+    font-family: var(--font-family-main);
+    color: var(--color-font);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button-consulte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 44px;
+    background: #1a3e3e;
+    border-radius: 4px;
+    font-family: var(--font-family-main);
+    color: var(--color-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-section {
+    width: 1180px;
+    margin: auto;
+}
+
+.main-section h1 {
+    width: 1080px;
+    color: var(--color-font);
+    font-size: 50px;
+    font-family: NEXT ART;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    margin-top: 462px;
+}
+
+.search-program {
+    margin-top: 41px;
+    width: 1180px;
+    height: 161px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+
+.location-tour {
+    width: 270px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px #e1e3e4 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    color: var(--color-font);
+    font-size: 16px;
+    color: var(--color-font);
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.2);
+}
