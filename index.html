@@ -5,15 +5,18 @@
     <meta charset="UTF-8" />
     <title>РУМТИБЕТ</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <section class="main-section">
+        <section class="wrapper main_section">
             <div class="menu">
                 <img src="images/logo.svg" />
-                <div class="menu-items">
-                    <div class="menu-items-links">
+                <div class="menu_items">
+                    <div class="menu_items_links">
                         <a>Главная</a>
                         <a>Про гида</a>
                         <a>Программа тура</a>
@@ -22,21 +25,109 @@
                         <a>Контакты</a>
                     </div>
                     <div class="menu-items-button">
-                        <a class="button-consulte">Консультация</a>
+                        <a href="" class="button_consulte">Консультация</a>
                     </div>
                 </div>
             </div>
+
             <h1>Насладись прогулкой в горах с командой единомышленников</h1>
-            <section class="search-program">
-                <select class="location-tour">
-            <option selected>Локация для тура</option>
-            <option>Кофе</option>
-            <option>Чай</option>
-            <option>Вода</option>
-          </select>
-            </section>
+            <form class="form_search">
+                <div class="form_search_wrapper">
+                    <select class="form_search_item">
+              <option selected>Локация для тура</option>
+              <option>Город1</option>
+              <option>Город2</option>
+              <option>Город3</option>
+            </select>
+                    <p>выберите из списка</p>
+                </div>
+                <div class="form_search_wrapper">
+                    <input class="form_search_data" class="data" type="date" min="2024-11-13" />
+                    <p>укажите диапазон</p>
+                </div>
+
+                <div class="form_search_wrapper">
+                    <select class="form_search_item">
+              <option selected>Участники</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+                    <p>минимум 4 человека</p>
+                </div>
+
+                <a href="" class="form_button_search_program">Найти программу</a>
+            </form>
         </section>
     </header>
+    <section class="about_section">
+        <div class="wrapper about">
+            <div class="about_media">
+                <img class="back_media" src="images/container2-mountain.jpg" />
+                <img class="front_media" src="images/container2-village.jpg" />
+            </div>
+            <div class="about_description">
+                <h3>о нашем походе</h3>
+                <h2>Исследуйте все горные массивы мира вместе с нами</h2>
+                <p>
+                    Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся
+                    его поисками в классической латинской литературе.
+                </p>
+                <a href="" class="about_description_button">Программа тура</a>
+            </div>
+        </div>
+    </section>
+    <section class="offer_section">
+        <div class="wrapper offer">
+            <div class="offer_description">
+                <h3>наше предложение</h3>
+                <h2>Лучшие программы для тебя</h2>
+                <p>
+                    Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.
+                </p>
+                <div class="offer_description_items">
+                    <div class="offer_description_item">
+                        <img src="images/gid-item1.svg" />
+                        <div class="offer_description_item_text">
+                            <div class="offer_description_item_text_name">Опытный гид</div>
+                            <p>
+                                Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offer_description_item">
+                        <img src="images/security-item2.svg" />
+                        <div class="offer_description_item_text">
+                            <div class="offer_description_item_text_name">
+                                Безопасный поход
+                            </div>
+                            <p>
+                                Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offer_description_item">
+                        <img src="images/price-item3.svg" />
+                        <div class="offer_description_item_text">
+                            <div class="offer_description_item_text_name">
+                                Лояльные цены
+                            </div>
+                            <p>
+                                Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="offer_description_button">Стоимость программ</a>
+            </div>
+            <div class="offer_media">
+                <img class="left-top" src="images/container3-drink.jpg" />
+                <img class="right-top" src="images/container3-man.jpg" />
+                <!--<img class="left-bottom" src="images/container3-mansnow.jpg" />
+                <img class="right-bottom" src="images/container3-view.jpg" />-->
+            </div>
+        </div>
+    </section>
 
     <footer></footer>
 </body>
