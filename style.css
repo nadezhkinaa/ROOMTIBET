@@ -608,6 +608,23 @@ footer {
     font-weight: 700;
 }
 
-.footer_section_down {
+.popular_places_item_link {
+    text-decoration: none;
+}
+
+.footer_container_down {
     background-color: var(--black-text);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_section_down p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
 }
