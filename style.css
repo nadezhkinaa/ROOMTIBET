@@ -161,13 +161,14 @@ option {
 .form_search_data {
     display: block;
     padding-left: 14px;
+    padding-right: 14px;
     margin-bottom: 8px;
     width: 270px;
     height: 52px;
     height: block;
     border-radius: 8px;
     border: 1px #e1e3e4 solid;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     color: var(--white-font);
@@ -176,6 +177,18 @@ option {
     background-color: inherit;
     font-family: var(--font-family-main);
     outline: none;
+}
+
+#date-inp::-webkit-calendar-picker-indicator {
+    padding-left: 120px;
+}
+
+.form_search_data::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.form_search_data::after {
+    content: url(images/calendar.svg);
 }
 
 .form_button_search_program {
