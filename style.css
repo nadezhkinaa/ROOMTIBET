@@ -1,6 +1,6 @@
 @font-face {
     font-family: "NunitoSans";
-    src: url("fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf") format("truetype");
+    src: url("fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "NEXTART";
-    src: url("fonts/NEXT ART_Bold.otf.ttf") format("truetype");
+    src: url("fonts/NEXT ART_Bold.otf.ttf") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -46,9 +46,9 @@ header {
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 212px;
+    gap: 112px;
     padding-top: 16px;
 }
 
@@ -61,6 +61,7 @@ header {
 .menu_items_links {
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 
 .menu_items_links a {
@@ -68,6 +69,7 @@ header {
     color: var(--white-font);
     font-size: 18px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .button_consulte {
@@ -604,4 +606,8 @@ footer {
     color: var(--green-text);
     font-size: 14px;
     font-weight: 700;
+}
+
+.footer_section_down {
+    background-color: var(--black-text);
 }
