@@ -235,11 +235,11 @@
     }
     .back_media {
         display: none;
-        width: 358px;
-        height: 416px;
     }
     .front_media {
         position: static;
+        width: 358px;
+        height: 416px;
     }
     .about_description {
         padding: 0;
@@ -250,7 +250,7 @@
     }
     .about {
         flex-direction: column-reverse;
-        gap: 50px;
+        gap: 40px;
     }
     .about_description h3 {
         font-size: 16px;
